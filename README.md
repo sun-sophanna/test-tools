@@ -1,6 +1,6 @@
 # Test Tools
 
-A responsive, static landing page for the Test Tools project. Built with semantic HTML and CSS, with no JavaScript or build dependencies.
+A responsive, static landing page for the Test Tools project. Built with semantic HTML, CSS, and a small progressive-enhancement script for scroll reveals. No build dependencies. Includes entrance animations, floating artwork, hover transitions, and reduced-motion support.
 
 ## Preview
 
