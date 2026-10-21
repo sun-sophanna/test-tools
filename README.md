@@ -1,15 +1,22 @@
-# Test Tools
+# Sophanna Sun — Developer Portfolio
 
-A responsive, static landing page for the Test Tools project. Built with semantic HTML, CSS, and a small progressive-enhancement script for scroll reveals. No build dependencies. Includes entrance animations, floating artwork, hover transitions, and reduced-motion support.
+A responsive React portfolio built with Vite. Dark editorial styling, an animated wireframe sphere, project filtering, accessible project dialogs, scroll reveals, mobile navigation, and email copy interaction. Respects reduced-motion preferences.
 
-## Preview
+## Development
 
-Run `python3 -m http.server 8080` in this directory and visit `http://localhost:8080`.
+- `npm ci`
+- `npm run dev`
+- `npm run build` creates `dist/`
+- `npm run preview` previews the production build
 
-## Deploy
+## Personalize
 
-Pushes to `main` run `.github/workflows/pages.yml` and deploy to GitHub Pages. If automatic Pages setup is unavailable, choose **GitHub Actions** under repository **Settings → Pages → Build and deployment → Source**, then rerun the workflow.
+Edit `src/main.jsx` for biography, contact information, GitHub links, and the `projects` array. Project examples are clearly labeled concept studies, not client projects. Replace them with real project descriptions and links when available. Styles live in `src/styles.css`.
 
-The intended URL is https://sun-sophanna.github.io/test-tools/.
+## Hosting
 
-Google Fonts is optional; system font fallbacks keep the page usable without it.
+GitHub Actions builds and deploys `dist/` on pushes to `main`. Vite's base path is `/test-tools/`, matching the repository. Update `vite.config.js` if the repository or hosting path changes.
+
+Live: https://sun-sophanna.github.io/test-tools/
+
+Google Fonts is optional; the page includes system font fallbacks.
